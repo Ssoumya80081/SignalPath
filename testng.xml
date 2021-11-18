@@ -1,0 +1,9 @@
+<suite name="Signal Path Suite">
+	
+	<test name="ToDo Test">
+		<packages>
+			<package name="com.signalpath.runners.*"/>
+		</packages>
+	</test>
+
+</suite>
