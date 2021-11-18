@@ -17,14 +17,10 @@ public class SeleniumUtils {
 
 	public WebDriver launchBrowser() {
 
-		String driverPath = "/Users/utlaraju/git_repos/qa-test-automation/vendor/";
+		String driverPath = System.getProperty("user.dir")+"/lib/";
 		String appUrl = "https://todomvc.com/examples/angular2/";
 
 		String browserType = System.getProperty("browserType");
-		// String osType = System.getProperty("os.name");
-
-		// if (osType.toLowerCase().contains("mac"))
-		// driverPath = System.getProperty("user.dir") + "/lib/";
 
 		if (browserType.toLowerCase().trim().equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", driverPath + "chromedriver");

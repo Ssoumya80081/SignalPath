@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Signal Path Suite" duration-ms="43055" started-at="2021-11-17T23:39:46 EST" finished-at="2021-11-17T23:40:29 EST">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="ToDo Test" duration-ms="43055" started-at="2021-11-17T23:39:46 EST" finished-at="2021-11-17T23:40:29 EST">
+      <class name="com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="setUpClass" is-config="true" duration-ms="331" started-at="2021-11-17T23:39:46 EST" finished-at="2021-11-17T23:39:46 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="runScenario" duration-ms="3603" started-at="2021-11-17T23:39:46 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T23:39:50 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a ToDo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test ToDo feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="runScenario" duration-ms="2917" started-at="2021-11-17T23:39:50 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T23:39:53 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Coomplete a ToDo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test ToDo feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="runScenario" duration-ms="32942" started-at="2021-11-17T23:39:53 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T23:40:26 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Delete a ToDo"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Test ToDo feature]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="runScenario" duration-ms="1541" started-at="2021-11-17T23:40:26 EST" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-11-17T23:40:27 EST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test the Forecase API"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[API tests for the Weather Service]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest@33f88ab]" name="tearDownClass" is-config="true" duration-ms="1684" started-at="2021-11-17T23:40:27 EST" finished-at="2021-11-17T23:40:29 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.signalpath.runners.TestNGRunnerCls$CucumberRunnerTest -->
+    </test> <!-- ToDo Test -->
+  </suite> <!-- Signal Path Suite -->
+</testng-results>

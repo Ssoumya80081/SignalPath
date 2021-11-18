@@ -1,16 +1,14 @@
 package com.signalpath.stepdefs;
 
-import java.util.List;
-
-import org.openqa.selenium.WebElement;
-import org.testng.Assert;
-
 import com.signalpath.base.framework.LocatorTypes;
 import com.signalpath.base.framework.SeleniumUtils;
-
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+
+import java.util.List;
 
 public class ToDoStepDef extends SeleniumUtils{
 
@@ -69,9 +67,10 @@ public class ToDoStepDef extends SeleniumUtils{
 		Assert.assertEquals(toDoList.size(), 0, "ToDo list is not empty, created ToDo is not deleted");
 
 	}
-	
-	/*
-	 * @After public void afterScenario() { quitBrowser(); }
-	 */
+
+	@Then("I close the browser after test completion")
+	public void i_close_the_browser_after_test_completion() {
+			quitBrowser();
+	}
 
 }
